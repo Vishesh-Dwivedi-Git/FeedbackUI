@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import AboutIconLink from "./components/AboutIconLink";
 import Post from "./components/Post";
 import { FeedbackProvider } from "./context/FeedbackContext";
+import Footer from "./components/Footer.jsx";
 
 function App() {
  //using params for multiple page
@@ -36,6 +37,7 @@ function App() {
         </Routes>
         <AboutIconLink/>
       </div>
+      <Footer/>
     </Router>
     </FeedbackProvider>
   );
